@@ -30,31 +30,31 @@ class ExcelBuilderTests extends GroovyTestCase {
 				
 				row(4){
 					cell 'A','李四'
-					cell('B',90)
-					cell('C',2)
-					cell('D',90)
+					cell 'B',90
+					cell 'C',2
+					cell 'D',90
 				}
 			}
 			
 			cSheet('name','李四'){
 				row(1){
-					cell('B','李四')
-					cell('F','信息技术部')
+					cell 'B','李四'
+					cell 'F','信息技术部'
 				}
 				row(2){
-					cell('B','普通职员')
-					cell('F','2012年度')
+					cell 'B','普通职员'
+					cell 'F','2012年度'
 				}
 			}
 			
 			sheet('name','张三'){
 				row(1){
-					cell('B','张三')
-					cell('F','信息技术部')
+					cell 'B','张三'
+					cell 'F','信息技术部'
 				}
 				row(2){
-					cell('B','普通职员')
-					cell('F','2012年度')
+					cell 'B','普通职员'
+					cell 'F','2012年度'
 				}
 			}
 			
